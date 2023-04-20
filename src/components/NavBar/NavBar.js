@@ -13,6 +13,8 @@ export default function NavBar(){
                 </ul>
             </nav>
 
+            {/* <img className={styles.myPic} src={process.env.PUBLIC_URL+"/images/me.png"} /> */}
+
             
 
         </>
