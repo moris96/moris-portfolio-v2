@@ -1,5 +1,6 @@
 import styles from "./App.module.scss";
 import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/NavBar/Footer/Footer";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 
@@ -18,6 +19,8 @@ function App() {
       <Projects/>
 
       <Contact/>
+
+      <Footer/>
 
     </div>
   );
