@@ -14,7 +14,7 @@ function App() {
       <div id={styles.intro} className={styles.intro}>
         <h1>Hey, I'm Moris Khoudari</h1>
         <p>Full Stack Web Developer</p><br/>
-        <br/><img className={styles.myPic} src={process.env.PUBLIC_URL+"/images/me.png"} />
+        <br/><img className={styles.myPic} src={`${process.env.PUBLIC_URL}/images/me.png`} />
       </div>
 
       {/* <img className={styles.myPic} src={process.env.PUBLIC_URL+"/images/me.png"} /> */}
