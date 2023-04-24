@@ -6,7 +6,7 @@ export default function Footer(){
     return(
         <>
             <footer>
-                Footer 
+                &copy; Moris Khoudari 2023 
             </footer>
         </>
     );
