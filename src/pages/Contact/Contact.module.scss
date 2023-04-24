@@ -27,8 +27,23 @@
   color: green;
 }
 
+.title{
+  background-color: #C8F7C5;
+}
+
 .OGform{
+  background-color: #C8F7C5;
+}
+
+.field{
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subject{
+  background-color: black;
 }
 
 .emailButton{
