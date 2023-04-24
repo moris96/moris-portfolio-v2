@@ -26,3 +26,27 @@
   background: #E4F1FE;
   color: green;
 }
+
+.OGform{
+  padding: 1rem;
+}
+
+.emailButton{
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #90C695;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+  cursor: pointer;
+}
+.emailButton:hover{
+  background: #E4F1FE;
+  color: green;
+}
