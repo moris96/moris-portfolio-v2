@@ -85,3 +85,23 @@
 		background-position: 0% 50%;
 	}
 }
+
+.resume{
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #90C695;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+  cursor: pointer;
+}
+.resume:hover{
+  background: #E4F1FE;
+  color: green;
+}

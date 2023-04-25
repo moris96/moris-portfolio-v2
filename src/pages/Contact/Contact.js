@@ -27,7 +27,15 @@ export default function Contact(){
 
                     <div><input type="submit" value="Send Email" className={styles.emailButton} /></div>
                 </form>
-                
+
+                <h2>Click here to download my resume!</h2>
+
+
+
+                <form method="get" action="https://drive.google.com/file/d/1lKA8mnPjCLNDh_hL8ye5CA8g51PYHZSY/view?usp=share_link" target="_blank">
+                    <button className={styles.resume} type="submit">Resume</button>
+                </form>
+
             </div>
         </>
     );
