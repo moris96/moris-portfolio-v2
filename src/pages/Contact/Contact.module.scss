@@ -18,22 +18,22 @@
   height: 100px;
   line-height: 100px;
   background: #e0ebe8;
-  color: #008080;
+  color: black;
   text-decoration: none;
 }
 
 .contactDetails:hover {
   background: #E4F1FE;
-  color: green;
+  color: black;
 }
 
-.title{
-  background-color: #C8F7C5;
-}
+// .title{
+//   background-color: #C8F7C5;
+// }
 
-.OGform{
-  background-color: #C8F7C5;
-}
+// .OGform{
+//   background-color: #C8F7C5;
+// }
 
 .field{
   padding: 1rem;
@@ -64,4 +64,24 @@
 .emailButton:hover{
   background: #E4F1FE;
   color: green;
+}
+
+
+.contact{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

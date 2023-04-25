@@ -33,10 +33,12 @@ export default function Projects(){
                   <img className={styles.projectPic} src={`${process.env.PUBLIC_URL}/images/project1.png`} />  
                   <div className={styles.projectTitle}>Game: Zombies vs Soldiers</div>
                 </a>
+
+                <a className={styles.showAll} href="https://github.com/moris96?tab=repositories" target="_blank">Show All</a>
             </div>
 
 
-            <a className={styles.showAll} href="https://github.com/moris96?tab=repositories" target="_blank">Show All</a>
+            {/* <a className={styles.showAll} href="https://github.com/moris96?tab=repositories" target="_blank">Show All</a> */}
 
         </>
     );

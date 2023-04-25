@@ -9,7 +9,12 @@ import Contact from "./pages/Contact/Contact";
 function App() {
   return (
     <div className="App">
+
       <NavBar/>
+
+      {/* <div className={styles.animatedBackground} /> */}
+
+      {/* <NavBar/> */}
 
       <div id={styles.intro} className={styles.intro}>
         <h1>Hey, I'm Moris Khoudari</h1>

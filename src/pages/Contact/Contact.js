@@ -12,23 +12,28 @@ export default function Contact(){
                 </div>
                 <a href="https://www.linkedin.com/in/moris-khoudari-abady/" target="_blank" className={styles.contactDetails}>Linkedin</a>
                 <a href="https://github.com/moris96" target="_blank" className={styles.contactDetails}>Github</a>
+
+                <h1 className={styles.title}>If you want to talk, collaborate on a project, or simply say hi, send an email to moriskhoudari@gmail</h1>
+                <h1 className={styles.title}>Let's talk!</h1>
+
+                <form className={styles.OGform} action="mailto:moriskhoudari@gmail.com" method="GET" target="_blank">
+                    <div className={styles.field}><label className={styles.label} for="subject">Subject</label><textarea className={styles.textarea} name="subject" placeholder="subject..."></textarea>
+                    </div>
+
+
+                    {/* <input name="subject" id={styles.subject} type="text" className={styles.input} value="subject" /> */}
+                    
+                    <div className={styles.field}><label className={styles.label} for="body">Message</label>
+                        <textarea className={styles.textarea} name="body" id={styles.body} placeholder="write something..." /></div>
+
+                    <div><input type="submit" value="Send Email" className={styles.emailButton} /></div>
+                </form>
             </div>
 
             {/* email form */}
-            <h1 className={styles.title}>If you want to talk, collaborate on a project, or simply say hi, send an email to moriskhoudari@gmail</h1>
-            <h1 className={styles.title}>Let's talk!</h1>
-            <form className={styles.OGform} action="mailto:moriskhoudari@gmail.com" method="GET" target="_blank">
-                <div className={styles.field}><label className={styles.label} for="subject">Subject</label><textarea className={styles.textarea} name="subject" placeholder="subject..."></textarea>
-                </div>
+            {/* <h1 className={styles.title}>If you want to talk, collaborate on a project, or simply say hi, send an email to moriskhoudari@gmail</h1>
+            <h1 className={styles.title}>Let's talk!</h1> */}
 
-
-                {/* <input name="subject" id={styles.subject} type="text" className={styles.input} value="subject" /> */}
-                
-                <div className={styles.field}><label className={styles.label} for="body">Message</label>
-                    <textarea className={styles.textarea} name="body" id={styles.body} placeholder="write something..." /></div>
-
-                <div><input type="submit" value="Send Email" className={styles.emailButton} /></div>
-            </form>
         </>
     );
 };
