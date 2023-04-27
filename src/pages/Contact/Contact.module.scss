@@ -35,11 +35,32 @@
 //   background-color: #C8F7C5;
 // }
 
-.field{
-  padding: 1rem;
+.OGform{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 48px;
+  
+}
+
+.field{
+  // padding: 1rem;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 400px;
+
+  border-color: #90C695;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #90C695;
+
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+
 }
 
 .subject{
