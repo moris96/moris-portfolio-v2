@@ -5,12 +5,17 @@ import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 
 import Popup from "reactjs-popup";
+import { Routes, Route } from "react-router-dom";
 
 
 
 function App() {
   return (
     <div className="App">
+
+      <Routes>
+        <Route path="/projects" element={<Projects/>} />
+      </Routes>
 
       <NavBar/>
 
