@@ -5,23 +5,23 @@ import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 
 import Popup from "reactjs-popup";
-import { Routes, Route } from "react-router-dom";
 
+import { Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
 
-      <Routes>
-        <Route path="/projects" element={<Projects/>} />
-      </Routes>
+      {/* <NavBar>
+        <Routes>
+          <Route path="/projects" element={<Projects/>} />
+        </Routes>
+      </NavBar> */}
+
+      
 
       <NavBar/>
-
-      {/* <div className={styles.animatedBackground} /> */}
-
-      {/* <NavBar/> */}
 
       <div id={styles.intro} className={styles.intro}>
         <h1>Hey, I'm Moris Khoudari</h1>
@@ -56,12 +56,8 @@ function App() {
         </Popup>
       </div>
 
-      {/* <img className={styles.myPic} src={process.env.PUBLIC_URL+"/images/me.png"} /> */}
-
       <Projects/>
-
       <Contact/>
-
       <Footer/>
 
     </div>
