@@ -3,23 +3,16 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/NavBar/Footer/Footer";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
+import Resume from "./pages/Resume/Resume";
 
 import Popup from "reactjs-popup";
 
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-
-      {/* <NavBar>
-        <Routes>
-          <Route path="/projects" element={<Projects/>} />
-        </Routes>
-      </NavBar> */}
-
-      
 
       <NavBar/>
 
@@ -58,6 +51,9 @@ function App() {
 
       <Projects/>
       <Contact/>
+
+      <Resume/>
+
       <Footer/>
 
     </div>

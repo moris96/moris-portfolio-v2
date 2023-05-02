@@ -107,7 +107,7 @@
 	}
 }
 
-.resume{
+.certBtn{
   display: inline-block;
   font-weight: bold;
   margin: 0 35px 45px 35px;
@@ -122,7 +122,20 @@
   text-decoration: none;
   cursor: pointer;
 }
-.resume:hover{
+.certBtn:hover{
   background: #E4F1FE;
   color: green;
+}
+
+.pro{
+  font-size: 30px;
+}
+
+.certif{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
 }
