@@ -13,6 +13,7 @@ import Popup from "reactjs-popup";
 function App() {
   return (
     <div className="App">
+      <div className="mobileOnly">
 
       <NavBar/>
 
@@ -55,6 +56,8 @@ function App() {
       <Resume/>
 
       <Footer/>
+
+      </div>
 
     </div>
   );
