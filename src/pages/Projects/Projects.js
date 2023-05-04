@@ -8,6 +8,12 @@ export default function Projects(){
             <div id={styles.work} className={styles.work}>
             <h2 className={styles.workHeader}>Here are some of my cool projects:</h2>
             <h2 className={styles.workHeader}>dummy account for logins: email: red@red.com || password: red123</h2>
+              {/* game site */}
+              <a href="https://gamesite.herokuapp.com/" target="_blank" className={styles.project}>
+                  <img className={styles.projectPic} src={`${process.env.PUBLIC_URL}/images/gameSite.png`} />  
+                  <div className={styles.projectTitle}>React App: Game Site</div>
+                </a>
+
               {/* pokedex React */}
               <a href="https://pokedex-reactjs-app.netlify.app/" target="_blank" className={styles.project}>
                   <img className={styles.projectPic} src={`${process.env.PUBLIC_URL}/images/pokedexReact.png`} />  
